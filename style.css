@@ -1,0 +1,27 @@
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-min-dev-ice-pixel-ratio:2){}
+body{
+    background-color: black;
+}
+.ss{
+    height: 150px;
+    color: white;
+    width: 150px;
+    border: 2px solid rgb(64, 222, 64);
+    background-color: rgb(237, 234, 39);
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    animation-name: ColorAnimate;
+    animation-duration: 0.25s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+
+    
+}
+
+@keyframes ColorAnimate {
+    from{ background-color: rgba(221, 96, 18, 0.873);}
+    to{ background-color: rgb(14, 209, 89);}
+    
+}
+
